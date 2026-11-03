@@ -1,0 +1,54 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="header-title header-desc">
+  <title id="header-title">Muhammad Abdullah — Software Engineering and Computer Engineering</title>
+  <desc id="header-desc">A dark violet banner with the name Muhammad Abdullah, the title Software Engineering · Computer Engineering, and the tagline Systems · Infrastructure · Applied AI.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E0A16"/>
+      <stop offset="1" stop-color="#09070E"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#C4B5FD" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 60) rotate(90) scale(320)">
+      <stop stop-color="#7C3AED" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="88" y1="130" x2="620" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F3FF"/>
+      <stop offset="0.6" stop-color="#D8CCFF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="88" y1="0" x2="128" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <linearGradient id="hairline" x1="88" y1="0" x2="1112" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="0.55" stop-color="#8B5CF6" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="19.5" stroke="url(#border)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#glow)"/>
+
+  <g fill="none" stroke="#8B5CF6">
+    <circle cx="1010" cy="138" r="58" stroke-opacity="0.42"/>
+    <circle cx="1010" cy="138" r="96" stroke-opacity="0.24"/>
+    <circle cx="1010" cy="138" r="134" stroke-opacity="0.12"/>
+  </g>
+  <circle cx="1010" cy="138" r="3.5" fill="#C4B5FD" opacity="0.9"/>
+  <circle cx="1106" cy="138" r="2.5" fill="#A78BFA" opacity="0.75"/>
+
+  <rect x="88" y="84" width="40" height="2" rx="1" fill="url(#accent)"/>
+
+  <text x="88" y="152" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="600" letter-spacing="-1" fill="url(#name)">Muhammad Abdullah</text>
+  <text x="90" y="197" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="3.2" fill="#A78BFA">SOFTWARE ENGINEERING &#183; COMPUTER ENGINEERING</text>
+  <text x="90" y="233" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#918AA3" letter-spacing="0.3">Systems &#183; Infrastructure &#183; Applied AI</text>
+
+  <rect x="88" y="266" width="1024" height="1" fill="url(#hairline)"/>
+</svg>
