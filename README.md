@@ -35,14 +35,11 @@
 
   <img src="assets/divider.svg" alt="" width="70%" />
 
-  <p><sub>INTERESTS</sub></p>
-  <p>Local-first tools, systems internals, and reproducible ML.</p>
-
   <p><sub>CONTACT</sub></p>
   <p>
     <a href="https://www.linkedin.com/in/muhammad-abdullah-718299374/">LinkedIn</a>
     &nbsp;&nbsp;&#183;&nbsp;&nbsp;
-    <a href="mailto:m.abdullah.au@proton.me">Email</a>
+    <a href="mailto:m.abdullah.au@proton.me">m.abdullah.au@proton.me</a>
   </p>
 
 </div>

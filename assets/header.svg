@@ -32,6 +32,18 @@
     </linearGradient>
   </defs>
 
+  <style>
+    .orbit-slow { transform-box: view-box; transform-origin: 1010px 138px; animation: orbit 36s linear infinite; }
+    .orbit-reverse { transform-box: view-box; transform-origin: 1010px 138px; animation: orbit-reverse 54s linear infinite; }
+    .core { animation: core-pulse 8s ease-in-out infinite; }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes orbit-reverse { to { transform: rotate(-360deg); } }
+    @keyframes core-pulse { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.45; } }
+    @media (prefers-reduced-motion: reduce) {
+      .orbit-slow, .orbit-reverse, .core { animation: none; }
+    }
+  </style>
+
   <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
   <rect x="0.5" y="0.5" width="1199" height="299" rx="19.5" stroke="url(#border)"/>
   <rect width="1200" height="300" rx="20" fill="url(#glow)"/>
@@ -41,8 +53,13 @@
     <circle cx="1010" cy="138" r="96" stroke-opacity="0.24"/>
     <circle cx="1010" cy="138" r="134" stroke-opacity="0.12"/>
   </g>
-  <circle cx="1010" cy="138" r="3.5" fill="#C4B5FD" opacity="0.9"/>
-  <circle cx="1106" cy="138" r="2.5" fill="#A78BFA" opacity="0.75"/>
+  <circle class="core" cx="1010" cy="138" r="3.5" fill="#C4B5FD"/>
+  <g class="orbit-slow">
+    <circle cx="1106" cy="138" r="2.6" fill="#A78BFA"/>
+  </g>
+  <g class="orbit-reverse">
+    <circle cx="1010" cy="4" r="2.2" fill="#8B5CF6"/>
+  </g>
 
   <rect x="88" y="84" width="40" height="2" rx="1" fill="url(#accent)"/>
 
