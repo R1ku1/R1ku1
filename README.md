@@ -2,9 +2,6 @@
 
   <img src="assets/header.svg" alt="Muhammad Abdullah — Software Engineering and Computer Engineering. Systems, infrastructure, and applied AI." width="100%" />
 
-  <p>
-    Software Engineering (Honours) student at the University of Sydney, majoring in Computer Engineering.<br />
-  </p>
 
   <img src="assets/divider.svg" alt="" width="70%" />
 
