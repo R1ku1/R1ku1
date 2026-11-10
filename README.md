@@ -4,7 +4,6 @@
 
   <p>
     Software Engineering (Honours) student at the University of Sydney, majoring in Computer Engineering.<br />
-    Interested in systems programming, software infrastructure, distributed systems, and AI/ML.
   </p>
 
   <img src="assets/divider.svg" alt="" width="70%" />
