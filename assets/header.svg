@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="header-title header-desc">
   <title id="header-title">Muhammad Abdullah — Software Engineering and Computer Engineering</title>
-  <desc id="header-desc">A dark violet banner with the name Muhammad Abdullah, the title Software Engineering · Computer Engineering, and a typewriter tagline: Systems programming · Infrastructure · Applied AI.</desc>
+  <desc id="header-desc">A dark violet banner with the name Muhammad Abdullah, the title Software Engineering · Computer Engineering, and the tagline Systems programming · Infrastructure · Applied AI.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
@@ -30,25 +30,17 @@
       <stop offset="0.55" stop-color="#8B5CF6" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </linearGradient>
-    <clipPath id="reveal">
-      <rect class="typed" x="90" y="188" width="346" height="24"/>
-    </clipPath>
   </defs>
 
   <style>
     .orbit-slow { transform-box: view-box; transform-origin: 1010px 121px; animation: orbit 36s linear infinite; }
     .orbit-reverse { transform-box: view-box; transform-origin: 1010px 121px; animation: orbit-reverse 54s linear infinite; }
     .core { animation: core-pulse 8s ease-in-out infinite; }
-    .typed { animation: type 3.2s steps(49, end) both; }
-    .caret { animation: caret-move 3.2s steps(49, end) both, caret-hide 0.35s linear 3.2s forwards; }
     @keyframes orbit { to { transform: rotate(360deg); } }
     @keyframes orbit-reverse { to { transform: rotate(-360deg); } }
     @keyframes core-pulse { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.45; } }
-    @keyframes type { from { width: 0; } to { width: 346px; } }
-    @keyframes caret-move { from { transform: translateX(0); opacity: 1; } to { transform: translateX(346px); opacity: 1; } }
-    @keyframes caret-hide { from { opacity: 1; } to { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
-      .orbit-slow, .orbit-reverse, .core, .typed, .caret { animation: none; }
+      .orbit-slow, .orbit-reverse, .core { animation: none; }
     }
   </style>
 
@@ -73,10 +65,7 @@
 
   <text x="88" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="600" letter-spacing="-1" fill="url(#name)">Muhammad Abdullah</text>
   <text x="90" y="176" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="#A78BFA">SOFTWARE ENGINEERING &#183; COMPUTER ENGINEERING</text>
-  <g clip-path="url(#reveal)">
-    <text x="90" y="207" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#918AA3" letter-spacing="0.3" textLength="344" lengthAdjust="spacing">Systems programming &#183; Infrastructure &#183; Applied AI</text>
-  </g>
-  <rect class="caret" x="90" y="191" width="1.6" height="17" rx="0.8" fill="#A78BFA" opacity="0"/>
+  <text x="90" y="207" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#918AA3" letter-spacing="0.3">Systems programming &#183; Infrastructure &#183; Applied AI</text>
 
   <rect x="88" y="234" width="1024" height="1" fill="url(#hairline)"/>
 </svg>
