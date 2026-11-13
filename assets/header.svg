@@ -39,14 +39,14 @@
     .orbit-slow { transform-box: view-box; transform-origin: 1010px 121px; animation: orbit 36s linear infinite; }
     .orbit-reverse { transform-box: view-box; transform-origin: 1010px 121px; animation: orbit-reverse 54s linear infinite; }
     .core { animation: core-pulse 8s ease-in-out infinite; }
-    .typed { animation: type 2.4s steps(32, end) both; }
-    .caret { animation: caret 2.4s steps(32, end) both, blink 1s step-end 2.4s infinite; }
+    .typed { animation: type 3.2s steps(49, end) both; }
+    .caret { animation: caret-move 3.2s steps(49, end) both, caret-hide 0.35s linear 3.2s forwards; }
     @keyframes orbit { to { transform: rotate(360deg); } }
     @keyframes orbit-reverse { to { transform: rotate(-360deg); } }
     @keyframes core-pulse { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.45; } }
     @keyframes type { from { width: 0; } to { width: 346px; } }
-    @keyframes caret { from { transform: translateX(0); opacity: 1; } to { transform: translateX(346px); opacity: 1; } }
-    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes caret-move { from { transform: translateX(0); opacity: 1; } to { transform: translateX(346px); opacity: 1; } }
+    @keyframes caret-hide { from { opacity: 1; } to { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
       .orbit-slow, .orbit-reverse, .core, .typed, .caret { animation: none; }
     }
